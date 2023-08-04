@@ -1,0 +1,5 @@
+
+rootProject.name = 'schoolparent'
+
+include 'students'
+findProject('schoolparent:students')?.name = 'students'

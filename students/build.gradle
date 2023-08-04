@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.9'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+
+sourceCompatibility = '17'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+// for testing
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
+}
