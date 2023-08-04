@@ -2,6 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
+      <module name="MS_Products.api-rest" target="1.8" />
+      <module name="MS_Products.api-rest.main" target="1.8" />
+      <module name="MS_Products.api-rest.test" target="1.8" />
+      <module name="MS_Products.app-service" target="1.8" />
+      <module name="MS_Products.app-service.main" target="1.8" />
+      <module name="MS_Products.app-service.test" target="1.8" />
+      <module name="MS_Products.model" target="1.8" />
+      <module name="MS_Products.model.main" target="1.8" />
+      <module name="MS_Products.model.test" target="1.8" />
+      <module name="MS_Products.rest-consumer" target="1.8" />
+      <module name="MS_Products.rest-consumer-auth" target="1.8" />
+      <module name="MS_Products.rest-consumer-auth.main" target="1.8" />
+      <module name="MS_Products.rest-consumer-auth.test" target="1.8" />
+      <module name="MS_Products.rest-consumer.main" target="1.8" />
+      <module name="MS_Products.rest-consumer.test" target="1.8" />
+      <module name="MS_Products.secret-manager" target="1.8" />
+      <module name="MS_Products.secret-manager.main" target="1.8" />
+      <module name="MS_Products.secret-manager.test" target="1.8" />
+      <module name="MS_Products.technical-logs-utility" target="1.8" />
+      <module name="MS_Products.technical-logs-utility.main" target="1.8" />
+      <module name="MS_Products.technical-logs-utility.test" target="1.8" />
+      <module name="MS_Products.usecase" target="1.8" />
+      <module name="MS_Products.usecase.main" target="1.8" />
+      <module name="MS_Products.usecase.test" target="1.8" />
       <module name="schoolparent.schoolparent.students" target="17" />
       <module name="schoolparent.schoolparent.students.main" target="17" />
       <module name="schoolparent.schoolparent.students.test" target="17" />
